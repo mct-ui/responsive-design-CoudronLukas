@@ -383,6 +383,7 @@ a:focus {
     padding: 0;
 }
 
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
@@ -455,12 +456,37 @@ a:focus {
     .c-logo{
         height: 40px;
     }
+    .c-lead--xl {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .c-lead--xxl {
+        font-size: 41px;
+        line-height: 48px;
+    }
+
+    .c-lead--xxxl {
+        font-size: 52px;
+        line-height: 64px;
+    }
 }
 
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
 
+
+.u-color-primary-light{
+    color: #7373F5 !important;
+}
+
+.u-color-primary-base{
+    color: #5051DB !important;
+}
+.u-color-primary-dark{
+    color: #3E3EA8 !important;
+}
 /*
     Utilities: max-width
     ---
@@ -490,6 +516,7 @@ a:focus {
 .u-max-width-none {
     max-width: none !important;
 }
+
 
 /*
     Utility: Flex
